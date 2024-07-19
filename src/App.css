@@ -1,0 +1,156 @@
+body {
+  background: #000;
+}
+
+* {
+  color: #fff;
+}
+
+.App {
+  text-align: center;
+}
+
+#header_text {
+  color: #fff;
+  font-size: 350%;
+}
+
+.game {
+  display: inline-block;
+  margin: 20px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 24px;
+  color: #fff;
+}
+
+#cell_0 {
+  border-right: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+}
+
+#cell_1 {
+  border-bottom: 3px solid #fff;
+}
+
+#cell_2 {
+  border-bottom: 3px solid #fff;
+  border-left: 3px solid #fff;
+}
+
+#cell_3 {
+  border-right: 3px solid #fff;
+}
+
+#cell_5 {
+  border-left: 3px solid #fff;
+}
+
+#cell_6 {
+  border-right: 3px solid #fff;
+  border-top: 3px solid #fff;
+}
+
+#cell_7 {
+  border-top: 3px solid #fff;
+}
+
+#cell_8 {
+  border-top: 3px solid #fff;
+  border-left: 3px solid #fff;
+}
+
+.game-list {
+  background-color: #fff;
+  width: 40%;
+  margin: 2rem auto;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.game-list h4 {
+  color: #000;
+}
+
+.game-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.game-list li {
+  cursor: pointer;
+  padding: 10px;
+  color: #000
+}
+
+.game-form {
+  margin: 20px;
+}
+
+.game-form button {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  outline: navajowhite;
+  font-size: 400%;
+  cursor: pointer;
+}
+
+.game-form button:hover {
+  text-decoration: underline;
+}
+
+.players {
+  position: absolute;
+  width: 150px;
+  text-align: left;
+}
+
+.players div {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.players div input {
+  color: #fff;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 150%;
+  width: 100%;
+  padding-left: .1rem;
+}
+
+.players button {
+  color: #fff;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.game-counts .count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.game-counts .count h1 {
+  margin-left: 1rem;
+}
